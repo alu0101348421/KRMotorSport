@@ -27,31 +27,31 @@ export function sendData() {
 
   if (!dni || !name || !email || !phone || !address) {
     $('#output').show()
-    $('#output').html('<div class="card-panel red lighten-1 alert alert-danger">Todos los campos son obligatorios</div>')
+    $('#output').html('<div class="card-panel red lighten-1 alert alert-danger" tabindex="0">Todos los campos son obligatorios</div>')
     return
   }
 
   if (validateDni(dni) == false) {
     $('#output').show()
-    $('#output').html('<div class="card-panel red lighten-1 alert alert-danger">DNI inválido</div>')
+    $('#output').html('<div class="card-panel red lighten-1 alert alert-danger" tabindex="0">DNI inválido</div>')
     return
   }
 
   if (!validateEmail(email)) {
     $('#output').show()
-    $('#output').html('<div class="card-panel red lighten-1 alert alert-danger">Email inválido</div>')
+    $('#output').html('<div class="card-panel red lighten-1 alert alert-danger" tabindex="0">Email inválido</div>')
     return
   }
 
   if (!validatePhone(phone)) {
     $('#output').show()
-    $('#output').html('<div class="card-panel red lighten-1 alert alert-danger">Teléfono inválido</div>')
+    $('#output').html('<div class="card-panel red lighten-1 alert alert-danger" tabindex="0">Teléfono inválido</div>')
     return
   }
 
   if (!viaEmail && !viaMail) {
     $('#output').show()
-    $('#output').html('<div class="card-panel red lighten-1 alert alert-danger">Debe seleccionar al menos una forma de contacto</div>')
+    $('#output').html('<div class="card-panel red lighten-1 alert alert-danger" tabindex="0">Debe seleccionar al menos una forma de contacto</div>')
     return
   }
 
@@ -66,12 +66,13 @@ export function sendData() {
   const db = getDatabase(app);
   set(ref(db, 'client/' + dni), data);
   $('#output').show()
-  $('#output').html('<div class="card-panel green lighten-1 alert alert-success">Datos guardados</div>')
+  $('#output').html('<div class="card-panel green lighten-1 alert alert-success" tabindex="0">Datos guardados</div>')
 }
 
 $('#sendBTN').on('click', function(event) {
   event.preventDefault();
   sendData();
+  $('#output').Focus();
 });
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
