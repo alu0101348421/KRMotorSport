@@ -1,0 +1,161 @@
+.row {
+  margin-bottom: 0.5em;
+}
+
+.logo-img{
+  width: 1.4em;
+  margin-top: 10px;
+  margin-left: 10px;
+  filter: invert(100%);
+}
+
+.fullwidth{
+  width: 100%;
+  max-width: initial;
+}
+
+.main-content{
+  background-color: #0f1115;
+  margin-top: 10%;
+  margin-bottom: 7%;
+  padding: 2%;
+}
+
+.migas{
+  background-color: #20252d;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 1%;
+  width: auto;
+  height: fit-content;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+.migas a{
+  color: rgb(145, 145, 145);
+  text-decoration: none;
+  margin-left: 1%;
+}
+
+.migas a:hover{
+  color: #b7cdf0;
+  text-decoration: underline;
+}
+
+.migas .main-web{
+  color: #fff
+}
+
+body{
+  background-image: url("/img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color:#EEEEEE;
+}
+
+.page-footer{
+  background-color: #0f1115;
+  margin-bottom: -10px;
+}
+
+nav{
+  background-color: #0f1115;
+}
+
+h1{
+  font-size: 4em;
+  text-align: center;
+  font-family: 'Expletus Sans', cursive, sans-serif;
+}
+
+h2{
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Expletus Sans', cursive, sans-serif;
+}
+
+.shadow{
+  filter: brightness(0.7);
+}
+
+.card{
+  background-color: #D65A31;
+  border-radius: 10px;
+  padding: 2%;
+  margin-bottom: 2%;
+  height: fit-content;
+}
+
+.card-title{
+  font-size: 1.5em;
+  font-family: 'Expletus Sans', cursive, sans-serif;
+  color: #EEEEEE;
+  background-color: rgba(0, 0, 0, 0.531);
+}
+
+.card-img{
+  aspect-ratio: 3/4;
+}
+
+h3{
+  font-size: 1.5em;
+  font-family: 'Expletus Sans', cursive, sans-serif;
+  color: #EEEEEE;
+}
+
+.justify-p{
+  text-align: justify
+}
+
+.imgwidth{
+  width: 100%;
+}
+
+.collection{
+  background-color: #181d25 !important;
+  border: #0f1115;
+  border-radius: 10px;
+  padding: 2%;
+  padding-bottom: 1%;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.collection-header{
+  background-color: #181d25 !important;
+}
+
+.collection-item{
+  background-color: #181d25 !important;
+}
+
+.map{
+  width: 100%;
+}
+
+.catalog-button{
+  background-color: #181d25;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  height: fit-content;
+}
+
+.catalog-button:hover{
+  background-color: #0f1115;
+}
+
+.inline-icon {
+  vertical-align: bottom;
+  font-size: 22px !important;
+}
+
+input{
+  border-radius: 10px;
+  border: #0f1115;
+  margin-bottom: 2%;
+  color: #EEEEEE;
+}

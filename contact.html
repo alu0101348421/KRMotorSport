@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contacto</title>
+  </head>
+  <body>
+    <div class="container s12 m12 l12 fullwidth">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo left">
+            <img src="img/logo.svg" class="responsive-img logo-img" alt="logo">
+          </a>
+          <ul class="right">
+            <li><a href="about.html">Sobre nosotros</a></li>
+            <li><a href="contact.html">Contáctanos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="col s12 migas">
+      <a href="index.html">Inicio</a>
+      <i class="material-icons inline-icon">chevron_right</i>
+      <a href="contact.html" class="main-web">Contáctanos</a>
+    </div>
+
+    <div class="container s12 m12 l12 main-content">
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <h1>Contáctanos</h1>
+        </div>
+      </div>
+
+      <!-- datos de contacto -->
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <br>
+          <h2>Datos de contacto</h2>
+          <ul class="center">
+            <li>
+              <i class="inline-icon material-icons">phone</i>
+              <span>+54 9 11-4-4-4-4</span>
+            </li>
+            <br>
+            <li>
+              <i class="inline-icon material-icons">email</i>
+              <span>
+                <a href="mailto:krmotor@sport.com" class="white-text">krmotor@sport.com</a>
+              </span>
+            </li>
+            <br>
+            <li>
+              <i class="inline-icon material-icons">location_on</i>
+              <span>Av. Siempre Viva 123</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Recibir catálogo -->
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <br>
+          <h2>Recibir catálogo</h2>
+          <form>
+            <div class="row">
+              <div class="input-field col s12 m12 l12">
+                <input id="name" type="text">
+                <label for="name">Nombre</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12 m12 l12">
+                <input id="dni" type="text">
+                <label for="dni">DNI</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12 m12 l12">
+                <input id="email" type="email">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12 m12 l12">
+                <input id="phone" type="text">
+                <label for="phone">Teléfono</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12 m12 l12">
+                <input id="address" type="text">
+                <label for="address">Dirección</label>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Via e-mail or via standard mail checkbox -->
+              <div class="input-field col s12 m12 l12">
+                <p>
+                  <label>
+                    <input type="checkbox" class="filled-in" checked="checked" id="email-checkbox" />
+                    <span>¿Quieres recibir el catálogo por email?</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input type="checkbox" class="filled-in" id="mail-checkbox" />
+                    <span>¿Quieres recibir el catálogo por correo?</span>
+                  </label>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <button class="btn waves-effect waves-light right catalog-button" type="submit" name="action" id="sendBTN" aria-label="Enviar">Enviar
+                  <i class="material-icons right">send</i>
+                </button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 m12 l12" id="output">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h3 class="white-text">Información</h3>
+            <p>KR MotorSport es una empresa dedicada a la venta de vehículos diseñados a medida para cada cliente, con los mejores diseños y productos propios del MotorSport.</p>
+            <h3 class="white-text">Contacto</h3>
+            <ul>
+              <li><a class="white-text" href="contact.html">+57 300 888 888 888</a></li>
+              <li><a class="white-text" href="mailto:krmotor@sport.com">krmotor@sport.com</a></li>
+              <li><a class="white-text" href="https://goo.gl/maps/LNm2f8LDRhwgrpxA6">Calle Principal #123</a></li>
+            </ul>
+          </div>
+          <div class="col l4 s12 right">
+            <h3 class="white-text">Links</h3>
+            <ul>
+              <li><a class="white-text" href="contact.html">Contacto</a></li>
+              <li><a class="white-text" href="about.html">Acerca de</a></li>
+              <li><a class="white-text" href="map.html">Mapa web</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="module" src="js/firebase.js"></script>
+  </body>
+</html>
